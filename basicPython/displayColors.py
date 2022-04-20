@@ -19,7 +19,7 @@ def display_list_items():
 
     color_list = ["Red", "Green", "White", "Black"]
     x = color_list[0]
-    y = color_list[3]
+    y = color_list[-1]
     print("First and last element in the list are :",x,y)
 
 display_list_items()
